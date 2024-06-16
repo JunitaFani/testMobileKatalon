@@ -1,0 +1,18 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.10.3
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m54022[39m }
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:54022/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://175.16.33.96:54022/wd/hub
+	http://127.0.0.1:54022/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m No drivers have been installed in C:\Users\user\.appium. Use the "appium driver" command to install the one(s) you want to use.
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m11 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":54036,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":false,"appium:platformVersion":"14","appium:deviceId":"","appium:noReset":true,"appium:udid":"10DD970BXY00047","appium:autoGrantPermissions":true,"appium:platformName":"Android","appium:deviceName":"10DD970BXY00047","platformName":"Android","appium:app":"C:\\Source\\com.eraspace.app_2024-04-24.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Source\\com.eraspace.app_2024-04-24.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"10DD970BXY00047","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"Android","appium:platformVersion":"14","appium:systemPort":54036,"appium:udid":"10DD970BXY00047","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=Android' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m69 ms - 1098[39m [90m[39m
